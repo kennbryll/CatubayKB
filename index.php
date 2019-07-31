@@ -3,7 +3,7 @@
 <title>Code Blooded</title>
 
  <body>
-  <aticle>
+  <article>
   <header>
   <h1>Kenn Bryll Catubay</h1>
   <p>The one that got away</p>
