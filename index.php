@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <title><h1>Hello World</h1></title>
-  </head>
-<body>
-<h2>Good Morning!</h2>
-</body>
-</html>
+<title>Code Blooded</title>
+
+ <body>
+  <aticle>
+  <header>
+  <h1>Kenn Bryll Catubay</h1>
+  <p>The one that got away</p>
+  </header>
+  </article>
+  
+  <main>
+  <h1>Province Address</h1>
+  <p>The waterfalls capital of Cebu</p>
+  </main>
+  
+  <footer>
+  <p>END</p>
+  </footer>
+  </html>
+  
