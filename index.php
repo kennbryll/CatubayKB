@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-<title>Code Blooded</title>
+<head>
+	<title>CatubayK Photo gallery</title>
+</head>
+<body>
+	<center><h1>CatubayK Photo Gallery</h1></center>
+	<center><h2>List of Photos</h2></center>
 
- <body>
-  <article>
-  <header>
-  <h1>Kenn Bryll Catubay</h1>
-  <p>The one that got away</p>
-  </header>
-  </article>
-  
-  <main>
-  <h1>Province Address</h1>
-  <p>The waterfalls capital of Cebu</p>
-  </main>
-  
-  <footer>
-  <p>END</p>
-  </footer>
- </body>
-  </html>
-  
+<center>
+	<div>
+	<a href="Photo1.html">Photo 1</a>
+	</div>
+</center>
+<center>
+	<div>
+	<a href="Photo2.html">Photo 2</a>
+	</div>
+</center>
+	<div>
+<center>
+<a href="Photo3.html">Photo 3</a>
+</center>
+	</div>
+</body>
+</html>
