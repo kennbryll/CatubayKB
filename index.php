@@ -23,6 +23,7 @@
             </div>
 	<br/>
             <div align="center">
+		    <form action="index2.php">
                 <input type="submit" value="Sign In">
 		<a href="index.php"Photo Gallery<a/>
             </div
