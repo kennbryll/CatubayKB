@@ -10,6 +10,7 @@
 </br>
 <center>
   <h4> Please type your Email Address: <input type="text"> </h4>
+  <form action="index.php">
   <input type="submit" value="Confirm">
 
 
