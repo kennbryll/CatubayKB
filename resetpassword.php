@@ -8,7 +8,10 @@
 </br>
 </br>
 </br>
-<h4> Please type your Email Address: <input type="text"> </h4>
+<center>
+  <h4> Please type your Email Address: <input type="text"> </h4>
+  <input type="submit" value="Confirm">
+
 
 
 
