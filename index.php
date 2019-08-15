@@ -2,39 +2,23 @@
 <html>
 <head>
     <title>Page Login</title>
-    
 </head>
-<body>
-    <header>
-        <div align="center">
-            <h2><b>Login</b></h2>
-        </div>
-    </header>
-    
-    <main>
-        <form>
-            <div align="center"><br>
-                <li><label for="username">Username:</label></li>
-                 <input type="text" name="username">
-            </div>
-            <div align="center">
-                <li><label>Password:</label></li>
-                <input type="password" name="password">
-            </div>
-	<br/>
-            <div align="center">
-		    <form action="index2.php">
-                <input type="submit" value="Sign In">
-		<a href="index.php"Photo Gallery<a/>
-            </div
-	<br/>
-	    <div align="center">
-		<li><label>Reset Password</label></li>
-	<br/>
-	    <div align="center">
-		<li><label>Sign Up</label></li>
-         </form>
-    </main>
-    
+<body> 
+<center>
+<h1>Login</h1>
+</br>
+<form action="index2.php">
+<h4>Username:<input type="username" placeholder="Input Username"></h4>
+<h4>Password:<input type="password" placeholder="Input Password"</h4>
+</br>
+</br>
+<input type="submit" value="Sign In">
+</form>
+</br>
+<a href="resetpassword.php">Reset Password</a>
+&nbsp;&nbsp;
+<a href="signup.php">Sign Up</a>
+</body>
+</html>  
 </body>
 </html>
