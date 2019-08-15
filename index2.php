@@ -21,6 +21,9 @@
 <center>
 <a href="Photo3.html">Photo 3</a>
 </center>
+		</br>
+	</br>
+	</br>
 		<center> <a href="index.php">Log out</a>
 		</center>
 	</div>
