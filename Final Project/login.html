@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Login</title>
+</head>
+<body>
+
+<h1><center>Eco eHelp</center></h1>
+
+<form name="loginform" onSubmit="return validateForm();" action="homepage1.html" method="post"><center>
+ <div class="imgcontainer">
+  </div>
+    <p class="one"><label><b>Username</b></label></p>
+    <input type="text" name="usr" placeholder="Username:"> 
+    <p class="two"><label><b>Password</b></label></p>
+    <input type="password" name="pword" placeholder="Password:">
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="submit">Login</button>
+</center></form>
+
+<script>
+
+    function validateForm() {
+        var un = document.loginform.usr.value;
+        var pw = document.loginform.pword.value;
+        var username = "username"; 
+        var password = "password";
+        if ((un == "kenn") && (pw == "bryll")) {
+            return true;
+        }
+    if (( un == "" ) && ( pw == "" )) {
+        alert("Username and password are required.");
+        return false;
+        }
+    if ( un == "" ) {
+        alert("Username is required.");
+        return false;
+        }
+    if ( pw == "" ) {
+        alert("Password is required.");
+        return false;
+        }
+        else {
+            alert ("Incorrect Username or Password.");
+        document.loginform.reset();
+            return false;
+        
+        }
+  }
+</script>
+</body>
+</html>
